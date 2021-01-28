@@ -40,5 +40,5 @@ GOTO MENU
 netsh interface ipv4 show subinterface
 GOTO Menu
 :Error
-set /a value+=10
+set /a value=576
 GOTO Start
